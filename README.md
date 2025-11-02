@@ -27,15 +27,5 @@ I’ve **edited, reformatted, and optimized** the original practical codes to:
 
 ---
 
-## ⚙️ How to Run
-
-### 💻 In **VS Code** (Recommended):
-1. Open the project folder (like `CS_4`, `CS_5`, etc.)
-2. Make sure you have **MinGW or GCC** installed.
-3. Open a terminal in VS Code and compile:
-   ```bash
-   g++ main.cpp -o output
-
----------------------------------------
 
 
