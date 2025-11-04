@@ -1,0 +1,313 @@
+Fibonacci series - adding pervious two number n=10
+0 -1+1 = 0
+1
+0+1=1
+1+1=2
+2+1=3
+3+2=5
+5+3=8
+13
+21
+34
+prime numbers ,composite numbers
+
+prime number - 2,3,5,7 
+1*2=2
+2*1=2
+
+1*3=3
+3*1=3
+
+composite numbers - 6
+
+2*3=6
+3*2=6
+1*6=6
+6*1=6 
+
+int main () {
+            int n;
+             cout<<"ENTER THE NUMBERS OF TERMS :";
+             cin>>n;
+            cout<<"\n\tFIBONACCI SERIES\n";
+            fibo(n);
+        }
+  
+ n=10;
+ENTER THE NUMBERS OF TERMS : 10
+FIBONACCI SERIES 
+fibo(10);
+
+
+void fibo (int n){
+             int a= -1,b=1,c=0;
+             for (int i =1;i<=n;i++){
+                cout<<endl;
+                 c=a+b;
+                 cout<<c;
+                 Primechk(c);
+                 a=b;
+                 b=c;
+             }
+        }
+void fibo (int 10) {
+int a= -1,b=1,c=0; 
+for (int i =1;1<=10;i++) T
+cout<<endl; 
+c=a+b
+c=-1+1 =0
+cout<<c;
+
+Primechk(0);
+void Primechk(int 0){
+     int j;
+       if( 0==0||0==1)  T
+       {   T      F
+         cout<<"\tNEITHER PRIME NOR COMPOSITE";
+       } 
+0 NEITHER PRIME NOR COMPOSITE 
+ a=b; b=a; a=1;
+ b=c; c=b ; b=0;
+void fibo (int 10 ){
+             int a= -1,b=1,c=0;
+             for (int i =2;2<=10;i++) T
+{
+                cout<<endl;
+                 c=a+b; c=1+0=1
+                 cout<<c;
+                 Primechk(1);
+                 a=b; a=0
+                 b=c; b=1
+             }
+        }
+void Primechk(int 1){
+     int j;
+       if( 1==0||1==1) T
+       {  F        T
+         cout<<"\tNEITHER PRIME NOR COMPOSITE";
+       } 
+1 NEITHER PRIME NOR COMPOSITE
+void fibo (int 10 ){
+             int a= -1,b=1,c=0;
+             for (int i =3;3<=10;i++) T
+{
+                cout<<endl;
+                 c=a+b; c=0+1=1
+                 cout<<c;
+                 Primechk(1);
+                 a=b; a=1
+                 b=c; b=1
+             }
+        }
+1 NEITHER PRIME NOR COMPOSITE
+ for (int i =4;4<=10;i++){
+                cout<<endl;
+                 c=a+b; c=1+1=2
+                 cout<<c;
+                 Primechk(2);
+                 a=b; a=1;
+                 b=c; b=2;
+void Primechk(int a){
+     int j;
+       if( 2==0||2==1) F
+       {  F        F
+         cout<<"\tNEITHER PRIME NOR COMPOSITE";
+       } 
+       else
+       {
+         for ( j = 2; 2<2; j++) F
+         {
+            if(a%j==0)
+           {
+               cout<<"\tCOMPOSITE";
+               break;
+           }
+         }
+          if (2==2)
+          {
+            cout<<"\tPRIME";
+          }
+2  PRIME 
+for (int i =5;5<=10;i++){
+                cout<<endl;
+                 c=a+b; c=1+2=3
+                 cout<<c;
+                 Primechk(3);
+                 a=b; a=2;
+                 b=c; b=3;
+void Primechk(int a){
+     int j;
+       if( 3==0||3==1) F
+       {
+         cout<<"\tNEITHER PRIME NOR COMPOSITE";
+       } 
+       else
+       {
+         for ( j = 2; 2<3; j++) T 
+         {
+            if(3%2==0)  F
+           {
+               cout<<"\tCOMPOSITE";
+               break;
+           }
+         }
+          if (a==j)
+          {
+            cout<<"\tPRIME";
+          }
+          
+for ( j = 3; 3<3; j++) F
+         {
+            if(3%2==0)  
+           {
+               cout<<"\tCOMPOSITE";
+               break;
+           }
+         }
+          if (3==3) T
+          {
+            cout<<"\tPRIME";
+          }
+          
+3 PRIME 
+for (int i =6;6<=10;i++){
+                cout<<endl;
+                 c=a+b; c=2+3=5
+                 cout<<c;
+                 Primechk(5);
+                 a=b; a=3;
+                 b=c; b=5;
+void Primechk(int a){
+     int j;
+       if( 5==0||5==1) F
+       {
+         cout<<"\tNEITHER PRIME NOR COMPOSITE";
+       } 
+       else
+       {
+         for ( j = 5; 5<5; j++) F
+         {
+            if(a%j==0)
+           {
+               cout<<"\tCOMPOSITE";
+               break;
+           }
+         }
+          if (5==5)  T
+          {
+            cout<<"\tPRIME";
+          }
+          
+5  PRIME 
+for (int i =7;7<=10;i++){
+                cout<<endl;
+                 c=a+b; c=3+5=8
+                 cout<<c;
+                 Primechk(8);
+                 a=b; a=5;
+                 b=c; b=8;
+void Primechk(int a){
+     int j;
+       if( 8==0||8==1) F
+       {
+         cout<<"\tNEITHER PRIME NOR COMPOSITE";
+       } 
+       else
+       {
+         for ( j = 2; 2<8; j++)  T
+         {
+            if(8%2==0) T
+           {
+               cout<<"\tCOMPOSITE";
+               break;
+           }
+         }
+          if (a==j)  
+          {
+            cout<<"\tPRIME";
+          }
+8 COMPOSITE 
+          for (int i =8;8<=10;i++){
+                cout<<endl;
+                 c=a+b; c=5+8=13
+                 cout<<c;
+                 Primechk(13);
+                 a=b; a=8;
+                 b=c; b=13;
+void Primechk(int a){
+     int j;
+       if( 13==0||13==1) F
+       {
+         cout<<"\tNEITHER PRIME NOR COMPOSITE";
+       } 
+       else
+       {
+         for ( j = 13; 13<13; j++)  F
+         {
+            if(a%j==0) 
+           {
+               cout<<"\tCOMPOSITE";
+               break;
+           }
+         }
+          if (a==j)  
+          {
+            cout<<"\tPRIME";
+          }
+13  PRIME
+ for (int i =9;9<=10;i++){
+                cout<<endl;
+                 c=a+b; c=8+13=21
+                 cout<<c;
+                 Primechk(21);
+                 a=b; a=13;
+                 b=c; b=21;
+void Primechk(int a){
+     int j;
+       if( 21==0||21==1) F
+       {
+         cout<<"\tNEITHER PRIME NOR COMPOSITE";
+       } 
+       else
+       {
+         for ( j = 3; 3<21; j++)T  
+         {
+          if(21%3==0) T
+           {
+               cout<<"\tCOMPOSITE";
+               break;
+           }
+         }
+          if (a==j)  
+          {
+            cout<<"\tPRIME";
+          }
+21 COMPOSITE
+ for (int i =10;10<=10;i++){
+                cout<<endl;
+                 c=a+b; c=13+21=34
+                 cout<<c;
+                 Primechk(34);
+                 a=b; a=21;
+                 b=c; b=34;
+void Primechk(int a){
+     int j;
+       if( 34==0||34==1) F
+       {
+         cout<<"\tNEITHER PRIME NOR COMPOSITE";
+       } 
+       else
+       {
+         for ( j = 2; 2<34; j++)T  
+         {
+          if(34%2==0) T
+           {
+               cout<<"\tCOMPOSITE";
+               break;
+           }
+         }
+          if (a==j)  
+          {
+            cout<<"\tPRIME";
+          }
+34 COMPOSITE
