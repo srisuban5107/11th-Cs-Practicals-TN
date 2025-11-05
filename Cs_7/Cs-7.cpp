@@ -6,9 +6,9 @@ for (int i = 0; i < m; i++) {
 for (int j = 0; j < n; j++)
 {
 if (i==0|| j==0||i==m-1||j==n-1)
-cout<<a[i][j]<<"\t"; // \t was to create the Boundary elements almost like book //
+cout<<a[i][j]<<"\t"; // \t was to create the Boundary elements almost like book or we can use single space
 else
-cout<<"\t";  // \t was to create the Boundary elements  almost like book //
+cout<<"\t";  // \t was to create the Boundary elements  almost like book or we can use doulble space
 }
 cout <<endl ;
 }
