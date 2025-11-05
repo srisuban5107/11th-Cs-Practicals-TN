@@ -1,0 +1,110 @@
+Enter the size of the array elements: 5 n=5
+Enter the elements for the array:
+1  a [0]=1
+2  a [1]=2
+3  a [2]=3
+4  a [3]=4
+5  a [4]=5
+--------Menu-----------
+1.Insert
+2.Delete
+3.Exit
+----------------------- 
+Enter your choice: 1  choice = 1;
+Enter the position for the new element: 3 pos = 3;
+Enter the element to be inserted : 26     val =26;
+
+for (i=n; i>=pos-1; i--)
+for (i=5; 5>=3-1; i--)
+{          
+a[i+1]=a[i];
+}
+for (i=5; 5>=2; i--) T
+{          
+a[5+1]=a[i];
+a[6]=a[5];
+a[6]=0;
+
+i=4 ;2>=2;
+a[4+1]=a[4];
+a [5]= 5;
+
+i=3; 3>=2;
+a[3+1]=a[3];
+a [4]= 4 ;
+
+i=2;2>=2;
+a[2+1]=a[2];
+a [3]= 3 ;
+
+i=1;1>=2;F
+
+a[pos]=val;
+
+a[3]=26 ;
+
+ a [0]=1
+ a [1]=2
+ a [2]=3
+ a [3]=26
+ a [4]=4
+ a [5]=5
+n=n+1;
+n=5+1;
+n=6;
+
+The array elements are: 
+1 2 3 26 4 5
+
+--------Menu-----------
+1.Insert
+2.Delete
+3.Exit
+----------------------- 
+Enter your choice: 2  choice=2;
+Enter the position of the element to be deleted: 2 pos = 2;
+val= a [pos];
+val = a [2];
+val = 3;
+
+for (i= pos;i<n-1;i++)
+{
+a[i]=a[i+1];
+}
+
+for (i= 2;2<6-1;i++) T
+for (i= 2;2<5;i++) T
+{
+a[i]=a[i+1];
+a[2]=a[3];
+a[2]= 26 ;
+ 
+i=3 ; 3<5;
+a[3]=a[4];
+a[3]= 4 ;
+
+i=4 ; 4<5;
+a[4]=a[5];
+a[4]= 5 ;
+
+i=5 ; 5<5; F
+
+ a [0]=1
+ a [1]=2
+ a[2]= 26
+ a[3]= 4 
+ a[4]= 5
+ 
+n=6-1;
+n=5;
+The deleted element is = 3 
+The array elements are: 
+ 1 2  26 4 5
+
+--------Menu-----------
+1.Insert
+2.Delete
+3.Exit
+--------------------------
+Enter your choice: 3 
+
